@@ -1,0 +1,4 @@
+auto:       true
+title: "Yere Düşünce Derneği"
+permalink:  /:categories/:year-:month-:day/:title
+pygments:   true

@@ -1,0 +1,32 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    
+    <title>Gökçen Eraslan | {{ page.title }}</title>
+    <meta name="author" content="Gökçen Eraslan" />    
+    <meta name="description" content="Yere Düşünce Derneği is the personal webpage of Gökçen Eraslan.">
+    
+    <link rel="start" href="/" />
+
+    <link rel="stylesheet" type="text/css" media="all" href="/css/min/reset.css" />
+    <link rel="stylesheet" type="text/css" media="all" href="/css/min/960.css" />
+    <link rel="stylesheet" type="text/css" media="all" href="/css/main.css" />
+
+    {% if page.code %}
+    <link rel="stylesheet" type="text/css" media="all" href="/css/syntax.css" />
+    {% endif %}
+    
+    <script type="text/javascript" src="http://code.jquery.com/jquery.min.js"></script>
+    
+    <script type="text/javascript" src="/nav.js"></script>
+    
+    {% if page.script %}
+    <script type="text/javascript" src="{{ page.script }}"></script>
+    {% endif %}
+  </head>
+  
+  <body>
+    {{ content }}
+  </body>
+</html>

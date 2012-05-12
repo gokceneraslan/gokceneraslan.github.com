@@ -1,0 +1,24 @@
+---
+layout: base
+---
+<div class="container_12 container">
+  <div class="grid_3" id="info">
+    {% include info.md %}
+  </div>
+  
+  <div class="grid_9">
+    <div class="grid_9 alpha omega" id="navbar">
+      {% include navbar.html %}
+    </div>
+    
+    <div class="grid_9 alpha omega" id="page-content">
+      <div class="{{ page.div_class }}">
+        {{ content }}
+      </div>
+    
+      {% if page.comments %}
+        {% include comments.html %}
+      {% endif %}
+    </div>
+  </div>
+</div>

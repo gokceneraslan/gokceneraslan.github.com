@@ -1,4 +1,1 @@
-gokceneraslan.github.com
-========================
-
-Blog repository
+This repo contains my personal site.
