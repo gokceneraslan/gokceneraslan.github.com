@@ -3,3 +3,4 @@ title: "Yere Düşünce Derneği"
 permalink:  /:categories/:year-:month-:day/:title
 pygments:   true
 paginate:   true
+category_title_prefix: "Kategori:"
