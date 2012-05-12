@@ -1,0 +1,25 @@
+---
+layout: nil
+---
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+    <title type="text" xml:lang="en">Gökçen Eraslan - Yere Düşünce Derneği</title>
+    <link type="application/atom+xml" href="http://blog.yeredusuncedernegi.com/feed/" rel="self"/>
+    <updated>{{ site.time | date_to_xmlschema }}</updated>
+    <id>http://blog.yeredusuncedernegi.com</id>
+    <author>
+        <name>Gökçen Eraslan</name>
+    </author>
+    <rights>Creative Commons Attribution-Noncommercial-Share Alike 3.0 Unported</rights>
+
+    {% for post in site.categories.libreoffice limit:20 %}
+    <entry>
+        <title>{{ post.title }}</title>
+        <link href="http://blog.yeredusuncedernegi.com{{ post.url }}"/>
+        <updated>{{ post.date | date_to_xmlschema }}</updated>
+        <id>http://blog.yeredusuncedernegi.com{{ post.id }}</id>
+        <content type="html">{{ post.content | xml_escape }}</content>
+    </entry>
+    {% endfor %}
+</feed>
