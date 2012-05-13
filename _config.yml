@@ -1,6 +1,7 @@
 auto:       true
 title: "Yere Düşünce Derneği"
-permalink:  /:categories/:year-:month-:day/:title
+#permalink:  /:categories/:year-:month-:day/:title
+permalink:  /:year-:month-:day/:title
 pygments:   true
 paginate:   true
 category_title_prefix: "Kategori:"
