@@ -13,7 +13,7 @@ layout: nil
     </author>
     <rights>Creative Commons Attribution-Noncommercial-Share Alike 3.0 Unported</rights>
 
-    {% for post in site.categories.libreoffice limit:20 %}
+    {% for post in site.categories.english limit:20 %}
     <entry>
         <title>{{ post.title }}</title>
         <link href="http://blog.yeredusuncedernegi.com{{ post.url }}"/>
