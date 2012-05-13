@@ -2,7 +2,7 @@
 layout: default
 title: Links and Code
 ---
-## Bağlantılar
+### Bağlantılar
 
 * [Buğday Ekolojik Yaşamı Destekleme Derneği](http://www.bugday.org)
 
