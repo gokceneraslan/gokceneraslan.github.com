@@ -2,10 +2,11 @@ auto:       true
 title: "Yere Düşünce Derneği"
 author: "Gökçen Eraslan"
 permalink:  /category/:categories/:year-:month-:day/:title
-#permalink:  /:year-:month-:day/:title
 pygments:   true
 paginate:   true
+url: "http://blog.yeredusuncedernegi.com"
 category_title_prefix: "Kategori: "
+twitter_name: gokcen
 
 exclude:
  - _drafts

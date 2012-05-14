@@ -5,9 +5,9 @@ layout: nil
 <feed xmlns="http://www.w3.org/2005/Atom">
 
     <title type="text" xml:lang="en">Yere Düşünce Derneği</title>
-    <link type="application/atom+xml" href="http://blog.yeredusuncedernegi.com/feed/" rel="self"/>
+    <link type="application/atom+xml" href="{{ site.url }}/feed/" rel="self"/>
     <updated>{{ site.time | date_to_xmlschema }}</updated>
-    <id>http://blog.yeredusuncedernegi.com</id>
+    <id>{{ site.url }}</id>
     <author>
         <name>Gökçen Eraslan</name>
     </author>
@@ -16,9 +16,9 @@ layout: nil
     {% for post in site.posts limit:20 %}
     <entry>
         <title>{{ post.title }}</title>
-        <link href="http://blog.yeredusuncedernegi.com{{ post.url }}"/>
+        <link href="{{ site.url }}{{ post.url }}"/>
         <updated>{{ post.date | date_to_xmlschema }}</updated>
-        <id>http://blog.yeredusuncedernegi.com{{ post.id }}</id>
+        <id>{{ site.url }}{{ post.id }}</id>
         <content type="html">{{ post.content | xml_escape }}</content>
     </entry>
     {% endfor %}
