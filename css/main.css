@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'Museo300';
-  src: url('/css/type/museo_300_macroman/Museo300-Regular.otf');
-  src: url('/css/type/museo_300_macroman/Museo300-Regular-webfont.eot?iefix') format('eot'),
-  url('/css/type/museo_300_macroman/Museo300-Regular-webfont.woff') format('woff'),
-  url('/css/type/museo_300_macroman/Museo300-Regular-webfont.ttf') format('truetype'),
-  url('/css/type/museo_300_macroman/Museo300-Regular-webfont.svg#webfontBsA9EFUC') format('svg');
+  src: url('/css/type/museo_300_turkish/Museo300-Regular.otf');
+  src: url('/css/type/museo_300_turkish/Museo300-Regular-webfont.eot?iefix') format('eot'),
+  url('/css/type/museo_300_turkish/Museo300-Regular-webfont.woff') format('woff'),
+  url('/css/type/museo_300_turkish/Museo300-Regular-webfont.ttf') format('truetype'),
+  url('/css/type/museo_300_turkish/Museo300-Regular-webfont.svg#webfontBsA9EFUC') format('svg');
   font-weight: normal;
   font-style: normal;
 }
