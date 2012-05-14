@@ -5,7 +5,7 @@ layout: nil
 <feed xmlns="http://www.w3.org/2005/Atom">
 
     <title type="text" xml:lang="en">Gökçen Eraslan - Yere Düşünce Derneği</title>
-    <link type="application/atom+xml" href="{{ site.url }}/feed/" rel="self"/>
+    <link type="application/atom+xml" href="{{ site.url }}{{ page.url }}" rel="self"/>
     <updated>{{ site.time | date_to_xmlschema }}</updated>
     <id>{{ site.url }}</id>
     <author>
