@@ -127,56 +127,6 @@ a:hover {
 	.padding-bottom: 0;
 }
 
-.site-owner-404 {
-	float: left;
-	width: 400px;
-	border-right: 1px solid #d9d6c5;
-	font-size: 12px;
-	color: #6d6a5b;
-	height: 87px;
-}
-
-.site-owner-404 h3 {
-	padding: 10px 0 12px;
-	font-size: 14px;
-	font-weight: normal;
-}
-
-.site-owner-404 h3 strong {
-	font-weight: bold;
-	color: #000;
-}
-
-.site-owner-404 ol li {
-	padding-bottom: 5px;
-}
-
-.site-visitor-404 {
-	float: left;
-	font-size: 12px;
-	color: #6d6a5b;
-	padding-left: 20px;
-}
-
-.site-visitor-404 h3 {
-	padding: 10px 0 12px;
-	font-size: 14px;
-	font-weight: normal;
-}
-
-.site-visitor-404 h3 strong {
-	font-weight: bold;
-	color: #000;
-}
-
-.site-visitor-404 ol li {
-	padding-bottom: 5px;
-}
-
-.site-visitor-404 ol li.last {
-	padding-left: 14px;
-}
-
 /*-------------------------------------
           End 404 Page Styles
 --------------------------------------*/
