@@ -17,6 +17,7 @@ Yüksek Lisans Öğrencisi
   <a href="http://twitter.com/gokcen">twitter</a> &#xb7;
   <a href="https://plus.google.com/102886392023813390441">google+</a></li>
 <li><a href="https://github.com/gokceneraslan">github</a></li>
+<li><a href="http://coderwall.com/gokceneraslan">coderwall</a></li>
 </ul>
 
 *{{ site.time | date_to_string }}*
