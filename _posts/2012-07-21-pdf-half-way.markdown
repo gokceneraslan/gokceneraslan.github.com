@@ -71,7 +71,7 @@ ignored some warnings caused by my changes, I have broken some builds in the
 [^2]: As you know, [PDF export dialog][5] has a great deal of options.
 This dialog, which resides in `filter/source/pdf/impdialog.cxx`, basically
 takes all PDF export parameters and passes them to PDFFilter class and it forwards
-those parameters to PDFExport class. Finally, PFExport class instantiate a
+those parameters to PDFExport class. Finally, PDFExport class instantiate a
 PDFWriterContext object and pass it to the vcl::PDFWriter class. (I want to
 thank GDB to make this process easier to understand.)
 [^3]: Right now, password box is an ordinary text edit. So be careful, your
