@@ -34,6 +34,9 @@ a:focus, a:hover {
   color: #ff8a04;
 }
 
+::selection { background: #ff8a04; color: #ffffff; }
+::-moz-selection { background: #ff8a04; color: #ffffff; }
+
 /* projects styling */
 .projects img { /* Float any image to the RIGHT and give it some margin */
   width: 31%;
