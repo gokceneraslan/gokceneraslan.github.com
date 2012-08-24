@@ -2,12 +2,10 @@
 
 #<a href="/" id="home">Gökçen Eraslan</a>
 
-Boğaziçi Üniversitesi                                                           
-Bilgisayar Mühendisliği                                                         
-Yüksek Lisans Öğrencisi                                                         
+[KTH (Royal Institute of Technology)](http://www.kth.se/en)
+Systems Biology
+Yüksek Lisans Öğrencisi
 
-[Polimer Araştırma Merkezi](http://www.prc.boun.edu.tr/PRC/)'nde proteinlerdeki
- wiggling ve jiggling atomları inceliyor.
 
 <p class="no-bottom-margin"></p>
 <ul>
