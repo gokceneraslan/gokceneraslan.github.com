@@ -3,7 +3,7 @@
 #<a href="/" id="home">Gökçen Eraslan</a>
 
 [KTH (Royal Institute of Technology)](http://www.kth.se/en)
-Systems Biology
+Computational Biology
 Yüksek Lisans Öğrencisi
 
 
